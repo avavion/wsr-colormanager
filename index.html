@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>ColorManager</title>
+</head>
+<body>
+
+
+<div class="toolbar">
+    <div class="container">
+        <h1 class="toolbar__title"><span class="green">C</span><span class="violet">o</span><span
+                class="blue">l</span><span class="yellow">o</span><span class="orange">r</span>Manager</h1>
+        <div class="range">
+            <h2 class="range__title">Выберите количество цветов:</h2>
+            <input type="range" class="range__control" min="1" max="10" step="1" value="1">
+            <p class="range-counter"><span id="currentCount">1</span> / <span>10</span></p>
+        </div>
+    </div>
+</div>
+
+<div class="grid"></div>
+
+<div class="notifications" id="notifications"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
